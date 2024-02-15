@@ -5,8 +5,8 @@ export const repositorySlice = createSlice({
   initialState: {
     xmlData: [
       {
-        group_id: "sdf",
-        artifact_id: "sdaf",
+        group_id: "",
+        artifact_id: "",
         version: "",
       },
     ],
