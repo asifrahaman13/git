@@ -88,7 +88,7 @@ class UserRepository:
                 print(pom_file_urls)
 
                 if not pom_file_urls:
-                    return {"message": "No pom.xml files found in the repository."}
+                    return False
 
                 dependencies = self.format_xml_data(pom_file_urls)
 

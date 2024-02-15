@@ -42,7 +42,10 @@ async def get_dependencies(repo: RespositoyData, authorization: str = Header(...
 
         required_xml_dependencies = user_interface.fetch_all_dependencies(access_token, repo)
 
-        return required_xml_dependencies
+        if(required_xml_dependencies==False):
+            return {"status":False,"xmlData":required_xml_dependencies}
+        
+        return {"status":True,"xmlData":required_xml_dependencies}
 
     except HTTPException as http_exception:
         # Handle HTTP exceptions
