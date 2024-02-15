@@ -1,4 +1,4 @@
-# chat-bot
+# xml dependencies
 
 This is a full stack chat bot application like chat GPT with enhanced capability to give you results based on read time data. You can ask current affairs questions along with the general question. It has also in built memory.
 
