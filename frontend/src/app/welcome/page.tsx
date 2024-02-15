@@ -112,7 +112,9 @@ const Welcome = () => {
 
   return (
     <>
+    
       <div className="w-screen h-screen flex flex-col items-center gap-12 p-32">
+        <div className="text-xl font-semibold">Select any of your repository, and hit the button! 🚀</div>
         <div className="w-full xl:w-1/2 flex flex-col gap-4 ">
           <RepositoryList repositories={repositories} selected={selected} setSelected={setSelected} />
           <button
