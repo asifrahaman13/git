@@ -1,6 +1,6 @@
 # xml dependencies
 
-This is a full stack chat bot application like chat GPT with enhanced capability to give you results based on read time data. You can ask current affairs questions along with the general question. It has also in built memory.
+This is a full stack chat bot application that crawls through all the repository of the user and displays the same. The user can select his repository from the drop down list. Next the application will fetch all the dependencies found in the repository. 
 
 
 ![alt text](<Screenshot from 2024-02-15 23-13-59.png>)
